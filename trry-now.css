@@ -1,0 +1,124 @@
+header .main-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 4000;
+}
+header .main-nav-scrolled{
+	background-color: rgba(0,0,0,0.4);
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar-light .navbar-nav .active .nav-link{
+	color: #00e0d0;
+}
+
+.nav-item a{
+    font-size:1.1rem;
+    font-weight: 500;
+    text-shadow: 2px 2px rgba(39, 38, 38, 0.267);
+}
+
+.nav-item a:hover{
+    font-size:1.12rem;
+    font-weight: 530;
+    text-shadow: 4px 4px rgba(39, 38, 38, 0.13);
+}
+
+.nav-item a{
+    font-size:1.1rem;
+    font-weight: 700;
+    text-shadow: 2px 2px rgba(39, 38, 38, 0.267);
+}
+
+.nav-item a:hover{
+    font-size:1.2rem;
+    font-weight: 900;
+    text-shadow: 4px 4px rgba(39, 38, 38, 0.13);
+}
+
+.logo-name{
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 8px 8px rgba(39, 38, 38, 0.137); 
+}
+
+.logo-name:hover{
+    display: inline-block;
+    font-size: 2.9rem;
+    font-weight: 600;
+    text-shadow: 14px 14px rgba(39, 38, 38, 0.055); 
+}
+
+.article{
+    margin-top: 15%;
+}
+
+.article h2{
+font-size: 2.4rem;
+font-weight: 700;
+color: line
+}
+
+.article p{
+font-size: 1.9rem;
+font-weight: 400;
+color: rgb(161, 161, 161);
+
+}
+
+
+.cont {
+    position: relative;
+    width: 85%;
+    height: 524px;
+  }
+
+  .cont:hover{
+      transform: scale(1.5s);
+  }
+  
+  .image {
+    display: block;
+    width: 81%;
+    height: 449px;
+    border-radius:5%;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: -48px;
+    right: 0;
+    overflow: hidden;
+    width: 115%;
+    height: 0;
+    transition: 1s ease;
+  }
+  
+  .cont:hover .overlay {
+    height: 100%;
+  }
+  
+  .img {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .demo-phone:hover .cont{
+   cursor: pointer;
+  }
+
+  .demo-group .demo-phone{
+      margin-top: 10%;
+  }
+

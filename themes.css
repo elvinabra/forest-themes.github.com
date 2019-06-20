@@ -1,0 +1,148 @@
+.for-background{
+    background-image: url(ezgif-5-973bf1d75229.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header .main-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 4000;
+}
+header .main-nav-scrolled{
+	background-color: rgba(0,0,0,0.4);
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar-light .navbar-nav .active .nav-link{
+	color: #00e0d0;
+}
+
+.nav-item a{
+    font-size:1.1rem;
+    font-weight: 500;
+    text-shadow: 2px 2px rgba(39, 38, 38, 0.267);
+}
+
+.nav-item a:hover{
+    font-size:1.12rem;
+    font-weight: 530;
+    text-shadow: 4px 4px rgba(39, 38, 38, 0.13);
+}
+
+.logo-name{
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 8px 8px rgba(39, 38, 38, 0.137); 
+}
+
+.logo-name:hover{
+    display: inline-block;
+    font-size: 2.9rem;
+    font-weight: 600;
+    text-shadow: 14px 14px rgba(39, 38, 38, 0.055); 
+}
+
+.by-logo{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 54%;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px rgba(39, 38, 38, 0.267);
+    
+}
+
+
+.by-logo:hover{
+    display: inline-block;
+    font-size: 1.4rem;
+    color: rgb(43, 42, 42);
+    font-weight: 600;
+    margin-left: 54%;
+    text-shadow: 9px 9px rgba(53, 51, 51, 0.144);
+    
+}
+
+/*for test*/
+body{
+  height: 400px;
+}
+
+.slider{
+    margin-top:10%;
+}
+
+.boot{
+    margin-top: 3%;
+}
+
+.boot-foot{
+    margin-top: 5%;
+}
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+.sign-w{
+    margin-top: 2%;
+}
+
+
